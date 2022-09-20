@@ -12,5 +12,13 @@ public class Main {
         Collections.sort(cities,Collections.reverseOrder());
 
         System.out.println(cities);
+        System.out.println();
+
+        Player P1 = new Player("MATYAD",10,5,7);
+        System.out.println(P1);
+
+        Player P2 = new Player("MATYTO",10,5,7);
+        System.out.println(P2);
+
     }
 }

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58932e69-5f89-43ce-b66c-0a962a1fab70" name="Changes" comment="start">
+      <change afterPath="$PROJECT_DIR$/src/Mag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericalPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PercentagePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PropertyPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,22 +26,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EzRkI0lkjotYbhqPx7hBGVrE2X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/adamm/Desktop/IT/Předlohy/PavlatDruhaHodina&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +57,13 @@
       <option name="presentableId" value="Default" />
       <updated>1663596569308</updated>
       <workItem from="1663596570870" duration="2209000" />
+      <workItem from="1663657276439" duration="580000" />
+      <workItem from="1663662252808" duration="178000" />
+      <workItem from="1663665179809" duration="170000" />
+      <workItem from="1663665393167" duration="1334000" />
+      <workItem from="1663676023933" duration="1861000" />
+      <workItem from="1663684140448" duration="1592000" />
+      <workItem from="1663697779686" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1663597326514</created>

@@ -1,14 +1,31 @@
-public class Player {
+
+public class Player{
     private String name;
-    private int maxHP = 100;
+    private int maxHP;
     private int currentHP;
     private int power;
 
+    private PropertyPrint print1 = new NumericalPrint();
+
+    private PropertyPrint print2 = new PercentagePrint();
+
     public Player(String name, int maxHP, int currentHP, int power) {
         this.name = name;
-        this.maxHP = maxHP;
-        this.currentHP = currentHP;
-        this.power = power;
+        setCurrentHP(currentHP);
+        setMaxHP(maxHP);
+        setPower(power);
+    }
+
+    public void setPrinter(PropertyPrint print1){
+        this.print1 = print1;
+    }
+
+    public void HpDown(int down){
+        if (currentHP > 0 ){
+            this.currentHP -= down;
+        }else {
+            currentHP=0;
+        }
     }
 
     public String getName() {
@@ -24,7 +41,13 @@ public class Player {
     }
 
     public void setMaxHP(int maxHP) {
-        this.maxHP = maxHP;
+        if (maxHP > currentHP){
+            this.maxHP = currentHP+5;
+        }
+
+        if (maxHP <= 0){
+            this.maxHP = 10;
+        }
     }
 
     public int getCurrentHP() {
@@ -32,7 +55,12 @@ public class Player {
     }
 
     public void setCurrentHP(int currentHP) {
-        this.currentHP = maxHP;
+        if (currentHP <= 0){
+            this.currentHP = 0;
+        }else {
+            this.currentHP = 5;
+        }
+
     }
 
     public int getPower() {
@@ -40,7 +68,11 @@ public class Player {
     }
 
     public void setPower(int power) {
-        this.power = power;
+        if (power >= maxHP){
+            this.power = 5;
+        }else {
+            this.power = power;
+        }
     }
 
     @Override
@@ -52,4 +84,5 @@ public class Player {
                 ", power=" + power +
                 '}';
     }
+
 }
